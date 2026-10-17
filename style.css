@@ -981,3 +981,14 @@
           animation-iteration-count: 1 !important;
         }
       }
+      footer 
+footer {
+  text-align: center;
+  padding: 30px;
+}
+
+footer img {
+  margin: 10px;
+  width: 88px;
+  height: 31px;
+}
