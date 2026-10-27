@@ -694,15 +694,16 @@
       }
 
       .project-link {
-        display: grid;
-        width: 31px;
-        height: 31px;
-        flex: 0 0 31px;
-        place-items: center;
+        display: inline-flex;
+        min-height: 31px;
+        flex: 0 0 auto;
+        align-items: center;
+        padding: 0 10px;
         border: 1px solid var(--line);
         border-radius: 9px;
         color: #ccd2d8;
-        font-size: 14px;
+        font-size: 11px;
+        white-space: nowrap;
         transition: color 160ms ease, border-color 160ms ease;
       }
 
