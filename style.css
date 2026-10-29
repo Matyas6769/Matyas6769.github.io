@@ -340,46 +340,32 @@
       }
 
       .project-art {
-        position: relative;
-        display: grid;
-        min-height: 245px;
         overflow: hidden;
+      }
+
+      .project-art-placeholder {
+        display: grid;
+        aspect-ratio: 1.62;
         place-items: center;
-        isolation: isolate;
-      }
-
-      .project-art::before,
-      .project-art::after {
-        position: absolute;
-        z-index: -1;
-        content: "";
-      }
-
-      .art-aurora {
         background:
-          radial-gradient(ellipse at 52% 111%, rgba(255, 153, 92, 0.22), transparent 46%),
-          linear-gradient(145deg, #1b1714, #101010);
+          radial-gradient(ellipse at 70% 25%, rgba(111, 130, 255, 0.2), transparent 42%),
+          linear-gradient(145deg, #121a2b, #0d1018);
       }
 
-      .art-aurora::before {
-        top: -55%;
-        left: 25%;
-        width: 90%;
-        height: 100%;
-        transform: rotate(-36deg);
-        border: 1px solid rgba(185, 255, 217, 0.18);
-        border-radius: 50%;
-        box-shadow: 0 0 0 27px rgba(185, 255, 217, 0.025), 0 0 0 55px rgba(185, 255, 217, 0.02);
+      .project-art-placeholder span {
+        padding: 10px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 10px;
+        background: rgba(15, 20, 33, 0.58);
+        color: #dce2f5;
+        font-family: var(--font-display);
+        font-size: 15px;
       }
 
-      .art-aurora::after {
-        right: -5%;
-        bottom: -70%;
-        left: -5%;
-        height: 100%;
-        border-radius: 50%;
-        background: linear-gradient(transparent, rgba(131, 240, 195, 0.12));
-        filter: blur(20px);
+      .project-preview {
+        display: block;
+        width: 100%;
+        height: auto;
       }
 
       .art-frame {
@@ -915,10 +901,6 @@
           gap: 12px;
         }
 
-        .project-art {
-          min-height: 196px;
-        }
-
         .frame-body {
           min-height: 105px;
         }
@@ -974,10 +956,6 @@
         .project-grid {
           grid-template-columns: 1fr;
           gap: 14px;
-        }
-
-        .project-art {
-          min-height: 225px;
         }
 
         .footer {
