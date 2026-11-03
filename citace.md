@@ -3,7 +3,6 @@
 ## Použité zdroje
 
 - Google Fonts – rodiny písem DM Mono, DM Sans a Manrope: https://fonts.google.com/
-- Google Search – referenční služba pro školní vyhledávací prototyp; prototyp není oficiálním produktem Google ani s Google nesouvisí: https://www.google.com/
 - W3C Nu Html Checker – validace HTML: https://validator.w3.org/nu/
 - W3C CSS Validation Service – validace CSS: https://jigsaw.w3.org/css-validator/
 
